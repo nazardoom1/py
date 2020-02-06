@@ -1,7 +1,7 @@
 sequence = 1
-list = []
+res = 0
 while (sequence < 1000):
   if sequence % 3 == 0 or sequence % 5 == 0:
-    list.append(sequence)
+    res = res + sequence
   sequence = sequence + 1
-print(list)
+print(res)
